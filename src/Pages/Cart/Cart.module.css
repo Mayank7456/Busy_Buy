@@ -1,0 +1,79 @@
+.purchaseSection{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 230px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 22px;
+    text-align: center;
+    background: #f0f0fc;
+}
+
+/* Initial this function not responsive so i hide this for mobile view i will update it */
+@media (max-width: 600px) {
+    .purchaseSection {
+        display: none;
+    }
+}
+
+.purchaseSection ul{
+    padding: 0;
+    user-select: none;
+}
+
+.purchaseSection ul li{
+    list-style: none;
+}
+
+.purchaseSection ul li h2{
+    color: #224957;
+}
+
+.purchaseSection ul li button {
+    background: #7064e5;
+    border: 1px solid #7064e5;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1rem;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+/* style for list  */
+
+.storeItemSection{
+    width: auto;
+    height: 90vh;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 18px;
+    margin-left: 250px;
+    margin-right: 12px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+/* for hide scrollbar if above code not working */
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .storeItemSection {
+        margin: 4px;
+    }
+}
+
+.emptyMSG{
+    font-size: 2rem;
+    font-weight: 700;
+    text-indent: 1cap;
+    font-family: serif;
+}

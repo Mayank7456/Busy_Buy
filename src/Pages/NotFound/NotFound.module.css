@@ -1,0 +1,21 @@
+.errorPage{
+    width: 100vw;
+    height: 100vh;
+}
+
+.errorPage img{
+    width: 100%;
+    height: 100%;
+}
+
+.homeButton{
+    display: block;
+    position: absolute;
+    left: 40.7%;
+    bottom: 10%;
+    width: 18.5vw;
+    height: 5.5vh;
+    background-color: transparent;
+    border-radius: 18px;
+    cursor: pointer;
+}

@@ -1,0 +1,108 @@
+.itemCard{
+    width: 300px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 18px;
+    margin: 18px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.imgContainer{
+    width: 200px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.imgContainer img{
+    width: 100%;
+    height: fit-content;
+    max-height: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.itemDetails{
+    width: 100%;
+    height: 100px;
+}
+
+.itemDetails p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: Inter, sans-serif;
+    margin: 8px 0;
+}
+
+.title{
+    font-weight: 500;
+    color: #224957;
+    font-size: 1.25rem;
+}
+
+.price{
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #224957;
+}
+
+.buttonContainer{
+    width: 100%;
+    margin: 8px 0;
+}
+
+.buttonContainer button{
+    width: 100%;
+    height: 40px;
+    font-size: 1.2rem;
+    border: none;
+    color: white;
+    /* background-color: cadetblue; */
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.removeButton{
+    background-color: lightcoral;
+}
+
+.removeButton:hover{
+    background-color: red;
+}
+
+.addButton{
+    background-color: cadetblue;
+}
+
+.addButton:hover{
+    background-color: darkblue;
+}
+
+.cartSelection{
+    float: right;
+    /* border: 1px solid black; */
+    position: relative;
+    right: 24px;
+    top: 4px;
+}
+
+.cartSelection img:hover{
+    cursor: pointer;
+}
+
+.cartSelection .cartCount{
+    margin: 0 6px;
+    position: relative;
+    top: -6px;
+    color: black;
+    font-weight: 100;
+}
+

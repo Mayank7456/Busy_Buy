@@ -1,0 +1,49 @@
+.orderCard{
+    width: 50%;
+    margin: 50px auto;
+    border: 1px solid rgb(128, 128, 128,0.1);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.orderCard > p, .orderCard > h1{
+    text-align: center;
+}
+
+.orderDetailContainer table{
+    margin: 0 auto 1.5rem;
+    position: relative;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.grandTotal{
+    width: 88%;
+    margin: 12px auto;
+    text-align: right;
+    font-size: large;
+    box-sizing: border-box;
+    color: gray;
+}
+
+td{
+    max-width: 300px;
+}
+
+.titleField{
+    text-align: left;
+    padding-left: 12px;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+tr,th,td{
+    border: 1px solid rgb(128, 128, 128,0.2);
+    border-collapse: collapse;
+}
+
+td:hover, th:hover{
+    border: 1px solid gray;
+}
+

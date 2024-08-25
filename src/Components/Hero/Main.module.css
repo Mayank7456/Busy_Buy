@@ -1,0 +1,25 @@
+main{
+    position: relative;
+}
+
+.searchSection{
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.searchSection input{
+    width: 250px;
+    height: 50%;
+    background: #f4f6f8 !important;
+    border: 1px solid #7064e5;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #7064e5 !important;
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 1em 0 !important;
+    outline: none;
+    padding: 12px;
+}

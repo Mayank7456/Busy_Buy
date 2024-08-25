@@ -1,0 +1,40 @@
+.filterSection{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 230px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 22px;
+    text-indent: 1cap;
+    background: #f0f0fc;
+}
+
+/* Initial this function not responsive so i hide this for mobile view i will update it */
+@media (max-width: 600px) {
+    .filterSection {
+        display: none;
+    }
+}
+
+.filterSection ul{
+    padding: 0;
+    user-select: none;
+}
+
+.filterSection ul li:first-child{
+    text-align: center;
+}
+
+.filterSection ul li{
+    list-style: none;
+}
+
+.filterSection ul li h2{
+    color: #224957;
+}
+
+.filterSection ul li input[type="checkbox"]{
+    margin-right: 8px;
+}
