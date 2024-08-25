@@ -18,13 +18,13 @@ This React application serves as a shopping website with Firebase integration, p
 
 ## Demo
 
-[Live Demo](https://mohitrajputt.github.io/Busy_Buy/) 
+[Live Demo](https://mayank7456.github.io/Busy_Buy/) 
 
 ## Installation
 
 To run this project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/mohitrajputt/busy_bus.git`
+1. Clone the repository: `git clone https://github.com/mayank7456/busy_bus.git`
 2. Navigate to the project directory: `cd busy_buy`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
@@ -39,12 +39,9 @@ To run this project locally, follow these steps:
 
 Contributions are welcome! Feel free to submit issues or pull requests.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-For any questions or feedback, (mailto: 999mohitrajput@gmail.com).
+For any questions or feedback, (mailto: tomarmayank219@gmail.com).
 
 
