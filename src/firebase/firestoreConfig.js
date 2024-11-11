@@ -4,13 +4,12 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAXXNA-1zK1-D3YdUxgdE0incnwF0Vy_uA",
-  authDomain: "busy-buy-c8b1c.firebaseapp.com",
-  databaseURL: "https://busy-buy-c8b1c-default-rtdb.firebaseio.com",
-  projectId: "busy-buy-c8b1c",
-  storageBucket: "busy-buy-c8b1c.appspot.com",
-  messagingSenderId: "29755796398",
-  appId: "1:29755796398:web:2cee7f971f5e11c6ac363f"
+  apiKey: "AIzaSyDo8Og_JjNjz363-BL48DEfLxMlPYuggDM",
+  authDomain: "busy-buy-d235f.firebaseapp.com",
+  projectId: "busy-buy-d235f",
+  storageBucket: "busy-buy-d235f.firebasestorage.app",
+  messagingSenderId: "330759277555",
+  appId: "1:330759277555:web:e1349d3eba0de1fd922086"
 };
 
 
