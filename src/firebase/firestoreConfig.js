@@ -4,14 +4,13 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDo8Og_JjNjz363-BL48DEfLxMlPYuggDM",
-  authDomain: "busy-buy-d235f.firebaseapp.com",
-  projectId: "busy-buy-d235f",
-  storageBucket: "busy-buy-d235f.firebasestorage.app",
-  messagingSenderId: "330759277555",
-  appId: "1:330759277555:web:e1349d3eba0de1fd922086"
+  apiKey: "AIzaSyAAEq_gSUMASQqa5eqXF6pUjSDSNRZ4r7I",
+  authDomain: "busy-buy-97080.firebaseapp.com",
+  projectId: "busy-buy-97080",
+  storageBucket: "busy-buy-97080.firebasestorage.app",
+  messagingSenderId: "307057779295",
+  appId: "1:307057779295:web:52f719c797c6a7d25631ea"
 };
-
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
