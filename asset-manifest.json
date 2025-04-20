@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Busy_Buy/static/css/main.6f6d5c44.css",
-    "main.js": "/Busy_Buy/static/js/main.3fe80a28.js",
+    "main.js": "/Busy_Buy/static/js/main.e2240d83.js",
     "static/media/404.png": "/Busy_Buy/static/media/404.fd3aa72826658d24a452.png",
     "index.html": "/Busy_Buy/index.html",
     "main.6f6d5c44.css.map": "/Busy_Buy/static/css/main.6f6d5c44.css.map",
-    "main.3fe80a28.js.map": "/Busy_Buy/static/js/main.3fe80a28.js.map"
+    "main.e2240d83.js.map": "/Busy_Buy/static/js/main.e2240d83.js.map"
   },
   "entrypoints": [
     "static/css/main.6f6d5c44.css",
-    "static/js/main.3fe80a28.js"
+    "static/js/main.e2240d83.js"
   ]
 }
